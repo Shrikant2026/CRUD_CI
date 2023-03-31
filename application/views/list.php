@@ -22,7 +22,7 @@ error_reporting(E_ALL);
       </form>
     </div>
  </nav>
- <div class="container" style="padding-top: 50px;">
+ <div class="container" style="padding-top: 50px; max-width: 1020px;">
  	<div class="row">
  		<div class="col-md-12">
  			<?php
@@ -45,8 +45,7 @@ error_reporting(E_ALL);
  	</div>
  	<div class="row">
  		<div class="col-6"><h3>Users List</h3></div>
- 		<div class="col-6 text-right"><a href="<?php echo base_url().'index.php/user/create'; ?>" class="btn btn-primary" style="float: right;">Create User<i class="fa fa-plus-circle" style="font-size:20px; margin: 5px;"></i>
-</a></div>	
+ 		<div class="col-6 text-right"><a href="<?php echo base_url().'index.php/user/create'; ?>" class="btn btn-primary" style="float: right;">Create User<i class="fa fa-plus-circle" style="font-size:20px; margin: 5px;"></i></a></div>	
  	</div>
  	<hr>
  	<div class="row">

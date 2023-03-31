@@ -22,7 +22,12 @@ error_reporting(E_ALL);
     </div>
   </nav>
   <form method="POST" name="createUser" action="<?php echo base_url().'index.php/user/create'; ?>">
-  <div class="container" style="padding-top: 50px;">
+  <div class="container" style="padding-top: 50px; max-width: 720px;">
+    <div class="form-check form-switch" style="text-align: right;">
+      <input class="form-check-input" id="toggle-switch" type="checkbox" id="flexSwitchCheckChecked" style="float: right;" checked>
+      <label class="form-check-label" for="flexSwitchCheckChecked" style="margin-right: 40px;" >Select to set it as active user</label>
+    </div>
+    <input type="hidden" name="is_active" id="is_active" value="0">
     <div class="mb-3">
       <label for="exampleInputName" class="form-label">Name</label>
       <input type="name" name="name" class="form-control" id="exampleInputName" value="<?php echo set_value('name'); ?>" aria-describedby="namehelp">

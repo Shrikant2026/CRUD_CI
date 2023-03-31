@@ -4,7 +4,6 @@ class User_model extends CI_model {
 
 	function create($formArray= null)
 	{
-		print_r($formArray);
 		return $this->db->insert('users',$formArray);
 	}
 
