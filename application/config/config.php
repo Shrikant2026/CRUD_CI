@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
+$config['base_url'] = 'http://localhost/crudiCI/';
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +35,7 @@ $config['base_url'] = '';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = ''; 
 
 /*
 |--------------------------------------------------------------------------
@@ -225,7 +225,7 @@ $config['allow_get_array'] = TRUE;
 | your log files will fill up very fast.
 |
 */
-$config['log_threshold'] = 0;
+$config['log_threshold'] = 2;
 
 /*
 |--------------------------------------------------------------------------
@@ -494,7 +494,7 @@ $config['compress_output'] = FALSE;
 | Options are 'local' or any PHP supported timezone. This preference tells
 | the system whether to use your server's local time as the master 'now'
 | reference, or convert it to the configured one timezone. See the 'date
-| helper' page of the user guide for information regarding date handling.
+| 	' page of the user guide for information regarding date handling.
 |
 */
 $config['time_reference'] = 'local';
