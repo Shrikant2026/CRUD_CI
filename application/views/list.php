@@ -59,6 +59,7 @@ error_reporting(E_ALL);
  					<th width="60">Edit</th>
  					<th width="100">Delete</th>
  				</tr>
+        <!-- Show Lists of users  -->
  				<?php 
           if (!empty($users)) {
    					foreach ($users as $user) {
