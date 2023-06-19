@@ -78,7 +78,7 @@ class user extends CI_Controller {
          $formArray['email'] = $this->input->post('email');
          $formArray['password'] = $this->input->post('password');
          $this->User_model->updateUser($userId,$formArray);
-         $this->session->set_flashdata('success','Record added successfully!');
+         $this->session->set_flashdata('success','Record updated successfully!');
          redirect(base_url().'index.php/user/index');
 
 		}
